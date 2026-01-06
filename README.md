@@ -789,6 +789,19 @@ By the end of this journey, you should be able to:
 5. **Explore future topics**
 6. **Share what you learned**
 
+
+## What You'll Achieve
+
+By the end, you'll have:
+
+1. Built a working agent framework from scratch
+2. Understood how LangChain/LangGraph work internally
+3. Mastered composability patterns
+4. Created reusable components (tools, chains, agents)
+5. Implemented state machines for complex workflows
+6. Gained confidence to use or extend any framework
+Then: Use LangChain.js in production, knowing exactly what happens under the hood.
+
 **Welcome to the world of AI agents!** 🚀
 
 ---
