@@ -12,9 +12,9 @@
  * This is how you change LLM temperature, max tokens, etc. at runtime!
  */
 
-import { RunnableConfig } from '../../../../src//core/context.js';
+import { RunnableConfig } from '../../../../core/context.js';
 import {Runnable} from  "../../../../core/index.js";
-import {BaseCallback} from '../../../../src/utils/callbacks.js';
+import {BaseCallback} from '../../../../utils/callbacks.js';
 
 class TextProcessorRunnable extends Runnable {
     constructor(options = {}) {

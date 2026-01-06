@@ -20,7 +20,7 @@ import {
     ListOutputParser,
     RegexOutputParser
 } from  "../../../../core/index.js";
-import {LlamaCppLLM} from '../../../../src/llm/llama-cpp-llm.js';
+import {LlamaCppLLM} from '../../../../core/llm/llama-cpp-llm.js';
 import {QwenChatWrapper} from "node-llama-cpp";
 
 const CONTENT_SAMPLES = [

@@ -13,7 +13,7 @@
  */
 
 import {Runnable} from  "../../../../core/index.js";
-import {BaseCallback} from '../../../../src/utils/callbacks.js';
+import {BaseCallback} from '../../../../utils/callbacks.js';
 
 class MetricsTrackerCallback extends BaseCallback {
     constructor() {

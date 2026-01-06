@@ -12,9 +12,9 @@
  * This is crucial for nested Runnable calls!
  */
 
-import {RunnableConfig} from '../../../../src/core/context.js';
+import {RunnableConfig} from '../../../../core/context.js';
 import {Runnable} from  "../../../../core/index.js";
-import {BaseCallback} from '../../../../src/utils/callbacks.js';
+import {BaseCallback} from '../../../../utils/callbacks.js';
 
 // Simple callback to show when it's called
 class TagLoggerCallback extends BaseCallback {

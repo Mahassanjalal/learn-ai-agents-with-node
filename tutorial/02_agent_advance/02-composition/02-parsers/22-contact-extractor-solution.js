@@ -11,7 +11,7 @@
  */
 
 import {Runnable, PromptTemplate, JsonOutputParser, ListOutputParser} from  "../../../../core/index.js";
-import {LlamaCppLLM} from '../../../../src/llm/llama-cpp-llm.js';
+import {LlamaCppLLM} from '../../../../core/llm/llama-cpp-llm.js';
 import {QwenChatWrapper} from "node-llama-cpp";
 
 // Sample text snippets with contact information
