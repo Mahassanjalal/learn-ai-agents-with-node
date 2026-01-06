@@ -157,6 +157,31 @@ node tutorial/01_agent_fundamentals/01_intro.js
 - **Schema Validation** - Using [SchemaValidator](utils/schema-validator.js)
 - **Structured Logging** - Using [Logger](utils/logger.js)
 
+### Week 5+: Advanced Modern AI Tutorials
+**Goal: Master cutting-edge AI patterns through practical implementation**
+
+We provide a **comprehensive 10-tutorial suite** organized by learning phase:
+
+#### 📍 Phase 1: Advanced Agents
+- [01_parallel_orchestration.js](tutorial/02_agent_advance/03_modern_ai/01_parallel_orchestration.js) - Run multiple tasks concurrently
+- [02_react_math_agent.js](tutorial/02_agent_advance/03_modern_ai/02_react_math_agent.js) - ReAct reasoning + acting loops
+- [05_multi_agent_collaboration.js](tutorial/02_agent_advance/03_modern_ai/05_multi_agent_collaboration.js) - Multi-agent systems
+
+#### 📍 Phase 2: Advanced LLM Techniques
+- [03_rag_local_search.js](tutorial/02_agent_advance/03_modern_ai/03_rag_local_search.js) - Semantic search & RAG
+- [06_dynamic_prompt_optimization.js](tutorial/02_agent_advance/03_modern_ai/06_dynamic_prompt_optimization.js) - Iterative prompt improvement
+
+#### 📍 Phase 3: Production Systems
+- [04_resilient_llm_call.js](tutorial/02_agent_advance/03_modern_ai/04_resilient_llm_call.js) - Retry, timeout, validation
+- [07_distributed_coordination.js](tutorial/02_agent_advance/03_modern_ai/07_distributed_coordination.js) - Distributed agents
+
+#### 📍 Phase 4: Cutting-Edge Topics
+- [08_self_improving_agents.js](tutorial/02_agent_advance/03_modern_ai/08_self_improving_agents.js) - Self-improvement loops
+- [09_neuro_symbolic_reasoning.js](tutorial/02_agent_advance/03_modern_ai/09_neuro_symbolic_reasoning.js) - Hybrid AI systems
+- [10_attention_visualization.js](tutorial/02_agent_advance/03_modern_ai/10_attention_visualization.js) - Model interpretability
+
+**Start here:** [tutorial/02_agent_advance/03_modern_ai/README.md](tutorial/02_agent_advance/03_modern_ai/README.md)
+
 ---
 
 ## 📂 Repository Structure
@@ -202,7 +227,20 @@ ai-agents-in-node/
 │       ├── 08_simple-agent-with-memory.js # Persistent memory
 │       ├── 09_react-agent.js              # ReAct pattern
 │       └── 10_aot-agent.js                # Advanced agents
-│   └── 02_agent_advance/         # Advanced topics (placeholder for future)
+│   └── 02_agent_advance/         # Advanced + Modern AI
+│       └── 03_modern_ai/         # Phase-based modern AI tutorials
+│           ├── 01_parallel_orchestration.js    # Phase 1: Parallel execution
+│           ├── 02_react_math_agent.js          # Phase 1: ReAct reasoning
+│           ├── 03_rag_local_search.js          # Phase 2: RAG retrieval
+│           ├── 04_resilient_llm_call.js        # Phase 3: Production resilience
+│           ├── 05_multi_agent_collaboration.js # Phase 1: Multi-agent coordination
+│           ├── 06_dynamic_prompt_optimization.js # Phase 2: Prompt optimization
+│           ├── 07_distributed_coordination.js  # Phase 3: Distributed agents
+│           ├── 08_self_improving_agents.js     # Phase 4: Self-improvement
+│           ├── 09_neuro_symbolic_reasoning.js  # Phase 4: Hybrid AI systems
+│           ├── 10_attention_visualization.js   # Phase 4: Model interpretability
+│           ├── README.md                       # Tutorial guide & matrix
+│           └── TUTORIAL_GUIDE.md               # Comprehensive tutorial documentation
 │
 ├── docs/                         # Concept documentation
 │   ├── 01_intro_concept.md                  # How LLMs work
@@ -384,10 +422,10 @@ This repository covers current trends in the AI and agent space:
 
 ## 🚀 Future Learning Topics
 
-These are topics you should explore **after** mastering this repository:
+These are topics for **advanced study** after mastering the included tutorials:
 
 ### Phase 1: Advanced Agents (Months 1-2)
-- [ ] **Multi-Agent Systems** - Agents that collaborate and communicate
+- [x] **Multi-Agent Systems** - ✅ [See 05_multi_agent_collaboration.js](tutorial/02_agent_advance/03_modern_ai/05_multi_agent_collaboration.js)
   - Agent hierarchies
   - Message passing between agents
   - Conflict resolution
@@ -397,13 +435,13 @@ These are topics you should explore **after** mastering this repository:
   - Tool composition
   - Error handling in tool chains
   
-- [ ] **State Management** - More sophisticated state persistence
+- [x] **State Management** - ✅ [See 07_distributed_coordination.js](tutorial/02_agent_advance/03_modern_ai/07_distributed_coordination.js)
   - Agent state machines
   - Rollback and recovery
   - Distributed state
 
 ### Phase 2: Advanced LLM Techniques (Months 3-4)
-- [ ] **Retrieval-Augmented Generation (RAG)**
+- [x] **Retrieval-Augmented Generation (RAG)** - ✅ [See 03_rag_local_search.js](tutorial/02_agent_advance/03_modern_ai/03_rag_local_search.js)
   - Vector embeddings
   - Semantic search with local embeddings
   - Document chunking and retrieval strategies
@@ -413,13 +451,13 @@ These are topics you should explore **after** mastering this repository:
   - Prompt tuning techniques
   - Few-shot learning strategies
   
-- [ ] **Model Routing**
+- [x] **Model Optimization** - ✅ [See 06_dynamic_prompt_optimization.js](tutorial/02_agent_advance/03_modern_ai/06_dynamic_prompt_optimization.js)
   - Classify inputs to appropriate model
   - Cost-efficiency optimization
   - Capability-based model selection
 
 ### Phase 3: Production Systems (Months 5-6)
-- [ ] **Monitoring & Observability**
+- [x] **Resilience & Reliability** - ✅ [See 04_resilient_llm_call.js](tutorial/02_agent_advance/03_modern_ai/04_resilient_llm_call.js)
   - Agent performance tracking
   - Cost monitoring
   - Quality metrics and KPIs
@@ -435,17 +473,17 @@ These are topics you should explore **after** mastering this repository:
   - Multi-GPU inference
 
 ### Phase 4: Cutting-Edge Topics (Months 7+)
-- [ ] **Emergent Behaviors**
+- [x] **Emergent Behaviors** - ✅ [See 08_self_improving_agents.js](tutorial/02_agent_advance/03_modern_ai/08_self_improving_agents.js)
   - Self-improvement loops
   - Knowledge synthesis
   - Autonomous task creation
   
-- [ ] **Hybrid Systems**
+- [x] **Hybrid Systems** - ✅ [See 09_neuro_symbolic_reasoning.js](tutorial/02_agent_advance/03_modern_ai/09_neuro_symbolic_reasoning.js)
   - Symbolic AI + Neural Networks
   - Rule-based + Learning
   - Neuro-symbolic reasoning
   
-- [ ] **Interpretability**
+- [x] **Interpretability** - ✅ [See 10_attention_visualization.js](tutorial/02_agent_advance/03_modern_ai/10_attention_visualization.js)
   - Understanding agent decisions
   - Attention visualization
   - Explanation generation
